@@ -57,20 +57,40 @@ section {
     font-family: var(--fonte3);
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 .normal {
     background-color: white;
-    color: black;
+    color: rgb(50, 50, 50);
+    text-shadow: .5px .5px 4px rgba(60, 60, 60, 0.474);
 }
 
 .imagem {
     background-color: rgb(65, 60, 60);
     color: white;
+    box-shadow: inset 5px 5px 15px 0px rgba(41, 41, 41, 0.697);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    
 }
 
 .imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.111);
+    text-shadow: 1px 1px 5px rgb(50, 50, 50);
 }
 
 footer {
