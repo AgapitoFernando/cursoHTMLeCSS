@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .cName {
+            background-color: chartreuse;
+        }
+        .cGroup {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+     <table>
+        <colgroup>
+            <col class="cName">
+            <col class="cGroup" span="2">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalisata</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Fernando</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Ourives</td>
+        </tr>
+        <tr>
+            <td>Palomita</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr>
+            <td>Carla</td>
+            <td>F</td>
+            <td>43</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Fulano</td>
+            <td>M</td>
+            <td>55</td>
+            <td>Motorista</td>
+        </tr>
+     </table>
+</body>
+</html>
