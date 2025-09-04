@@ -1,1 +1,3 @@
 Media Query = Media Types e Media Features
+<!--fora dos parêntesis é Media type; Dentro dos parêntesis é media feature-->
+ex: <link rel="stylesheet" href="styles/portrait.css" media="screen and (orientation: portrait)">
